@@ -1,0 +1,169 @@
+
+
+.principal{
+    width: 100%;
+}
+
+.apresentacao{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.conteudo-informacoes{
+    padding: 0 0.2%;
+    width: 80%;
+    float: right;
+}
+
+
+.card #profissao{
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-group-item{
+    font-size: 18px;
+}
+
+.fa-php{
+    color: #592edc;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-database{
+    color: grey;
+}
+
+.fa-linkedin{
+    color: #0d6efd;
+}
+
+.fa-github{
+    color: #000000;
+}
+
+.card-image{
+    border-radius: 15%;
+    width: 100%;
+    padding: 20px;
+}
+
+#card-nome{
+    text-align: center;
+}
+
+
+.redes_sociais{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Formacao */
+
+#status_formacao{
+    font-weight: bold;
+    color: green;
+}
+
+#info_tcc_header{
+    text-align: center;
+}
+
+.fa-download{
+    color: #000000;
+}
+
+.botoes_projeto > div button{
+    color: red;
+}
+
+#descricao_tcc{
+    background-color: #e9ecef;
+}
+
+.image_logo{
+    width: 25%;
+}
+
+/* Cursos */ 
+
+#apresentacao_curso{
+    margin-left: 3rem!important;
+}
+
+.row h4{
+    text-align: center;
+}
+
+.card_certificado{
+    text-align: left;
+}
+
+.card-link{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+.card-link:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+
+.img_certificado{
+    width: 100%;
+    max-height: 200px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+#card_descricao{
+    height: 80px;
+    overflow: auto;
+    background-color: #8080802b;
+}
+
+
+
+/* Responsividade para Celulares  */ 
+
+@media screen and (max-width: 480px){
+
+    #info > .row div {
+        width: 100%;
+    }
+
+    .apresentacao, .conteudo-informacoes{
+        width: auto;
+        height: auto;
+        float: none;
+    }
+
+    #apresentacao_curso{
+        margin-left: 0px;
+    }
+
+    .botoes_projeto > div button{
+        float: right;
+        vertical-align: top;
+        display: flex;
+    }
+
+
+}
